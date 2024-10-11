@@ -19,8 +19,8 @@ let edad = parseInt(prompt('Ingrese su edad'));
 console.log(typeof(edad));
 console.log(edad);
 
-if (edad >= 16){
-    document.write('usted debe votar');
+if (edad >= 16 && edad < 18 || edad >= 71){
+    document.write('es optativo votar');
 }else{
     document.write('no puede votar');
 }
